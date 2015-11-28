@@ -78,6 +78,37 @@
             </objects>
             <point key="canvasLocation" x="325" y="327"/>
         </scene>
+        <!--Search View Controller-->
+        <scene sceneID="QEa-YM-eJF">
+            <objects>
+                <viewController id="1sP-xQ-PCP" customClass="SearchViewController" customModule="DwangoHack_Sub_D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XJT-wF-qpC"/>
+                        <viewControllerLayoutGuide type="bottom" id="aOe-Iz-xAU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vIP-L5-ei0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tid-Bo-an6">
+                                <rect key="frame" x="20" y="118" width="280" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="searchTextField" destination="Tid-Bo-an6" id="9V0-zL-IvB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8h-yl-yaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421" y="956"/>
+        </scene>
         <!--Op View Controller-->
         <scene sceneID="Mw1-zX-9XU">
             <objects>

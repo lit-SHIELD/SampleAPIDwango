@@ -5,7 +5,7 @@
 
 
 target 'DwangoHack_Sub_D' do
-
+pod 'ParkedTextField', '~> 0.2.0'
 pod 'Alamofire'
 pod 'SwiftyJSON'
 

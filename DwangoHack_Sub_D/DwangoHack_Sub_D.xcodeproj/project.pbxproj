@@ -46,6 +46,7 @@
 		03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */; };
 		03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */; };
 		1E3DD6A0473962060CD8366B /* Pods_DwangoHack_Sub_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */; };
+		39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B181EC1C0966C8000D72E7 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		199DB5011E271E1CB786EB41 /* Pods-DwangoHack_Sub_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.debug.xcconfig"; sourceTree = "<group>"; };
+		39B181EC1C0966C8000D72E7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,6 +241,7 @@
 			children = (
 				030EAC4B1C08B61D00FDA334 /* OpViewController.swift */,
 				030EAC801C08DFF400FDA334 /* MovieViewController.swift */,
+				39B181EC1C0966C8000D72E7 /* SearchViewController.swift */,
 				030EAC881C08E53C00FDA334 /* MainViewController.swift */,
 			);
 			name = Controllers;
@@ -512,6 +515,7 @@
 				03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */,
 				03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */,
 				030EAC871C08E43700FDA334 /* OverlayView.swift in Sources */,
+				39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */,
 				030EAC4C1C08B61D00FDA334 /* OpViewController.swift in Sources */,
 				030EAC4A1C08B61D00FDA334 /* AppDelegate.swift in Sources */,
 				030EAC851C08E43700FDA334 /* DraggableView.swift in Sources */,
