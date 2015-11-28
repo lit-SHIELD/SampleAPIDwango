@@ -30,9 +30,10 @@ class MainViewController: UIViewController {
 
         
         let keyWord : String = myUD.stringForKey("QID")!
+        print(keyWord)
         
         
-        let url =  "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=" + keyWord + "&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=10 &_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
+        let url =  "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=" + keyWord + "&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=10&_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
         
         //q         検索ワード
         //targets   qで何を探すか？
