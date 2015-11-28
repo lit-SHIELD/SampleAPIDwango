@@ -26,7 +26,13 @@ class MainViewController: UIViewController {
         
         imageGIF.image = UIImage.animatedImageWithAnimatedGIFURL(gifUrl)
         
-        let url = "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=tennis&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=500&_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
+        let myUD = NSUserDefaults.standardUserDefaults()
+
+        
+        let keyWord : String = myUD.stringForKey("QID")!
+        
+        
+        let url =  "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=" + keyWord + "&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=10 &_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
         
         //q         検索ワード
         //targets   qで何を探すか？
