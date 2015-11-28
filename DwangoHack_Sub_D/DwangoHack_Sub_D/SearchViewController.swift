@@ -43,6 +43,10 @@ class SearchViewController: UIViewController, UITextFieldDelegate{
         return true
     }
     
+    @IBAction func back(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
     
 
     

@@ -23,6 +23,10 @@
 		030EAC8B1C08E5E400FDA334 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EAC8A1C08E5E400FDA334 /* CardInfo.swift */; };
 		030EAC8D1C08FFA000FDA334 /* oneself.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030EAC8C1C08FFA000FDA334 /* oneself.jpg */; };
 		030EAC8F1C09437600FDA334 /* niconico.png in Resources */ = {isa = PBXBuildFile; fileRef = 030EAC8E1C09437600FDA334 /* niconico.png */; };
+		03CF537B1C09936700815ADD /* nicoStartTag_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF53791C09936700815ADD /* nicoStartTag_03.png */; };
+		03CF537C1C09936700815ADD /* nicoStartTag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537A1C09936700815ADD /* nicoStartTag.jpg */; };
+		03CF537F1C09937000815ADD /* nicoStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537D1C09937000815ADD /* nicoStart.jpg */; };
+		03CF53801C09937000815ADD /* nicoStartBtn_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537E1C09937000815ADD /* nicoStartBtn_03.png */; };
 		03D7E29E1C094FF90041F992 /* animation01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E29D1C094FF90041F992 /* animation01.gif */; };
 		03D7E2A21C09555C0041F992 /* ニコニコ2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */; };
 		03D7E2A41C0956240041F992 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A31C0956240041F992 /* demo.gif */; };
@@ -61,6 +65,8 @@
 		39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F61C097FA8000D72E7 /* nicoTag_4.png */; };
 		39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F71C097FA8000D72E7 /* nivcoTagMain.jpg */; };
 		39B181FE1C0980B9000D72E7 /* main_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181FD1C0980B9000D72E7 /* main_03.png */; };
+		BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */; };
+		BABA5E971C099A09005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,10 @@
 		030EAC8A1C08E5E400FDA334 /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
 		030EAC8C1C08FFA000FDA334 /* oneself.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneself.jpg; sourceTree = "<group>"; };
 		030EAC8E1C09437600FDA334 /* niconico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niconico.png; sourceTree = "<group>"; };
+		03CF53791C09936700815ADD /* nicoStartTag_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoStartTag_03.png; sourceTree = "<group>"; };
+		03CF537A1C09936700815ADD /* nicoStartTag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicoStartTag.jpg; sourceTree = "<group>"; };
+		03CF537D1C09937000815ADD /* nicoStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicoStart.jpg; sourceTree = "<group>"; };
+		03CF537E1C09937000815ADD /* nicoStartBtn_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoStartBtn_03.png; sourceTree = "<group>"; };
 		03D7E2991C094CC00041F992 /* DwangoHack_Sub_D-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DwangoHack_Sub_D-Bridging-Header.h"; sourceTree = "<group>"; };
 		03D7E29D1C094FF90041F992 /* animation01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation01.gif; sourceTree = "<group>"; };
 		03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ニコニコ2x.gif"; sourceTree = "<group>"; };
@@ -145,6 +155,8 @@
 		39B181FD1C0980B9000D72E7 /* main_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_03.png; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
+		BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
+		BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +268,8 @@
 		030EAC7C1C08C8C100FDA334 /* Resouse */ = {
 			isa = PBXGroup;
 			children = (
+				BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */,
+				03CF53781C09935500815ADD /* sugawakun_img */,
 				39B181F21C097FA8000D72E7 /* nicoTag */,
 				03D7E2E31C096A560041F992 /* nicoBtnBack.png */,
 				03D7E2D91C09698B0041F992 /* nicoBtn_1.png */,
@@ -302,6 +316,17 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		03CF53781C09935500815ADD /* sugawakun_img */ = {
+			isa = PBXGroup;
+			children = (
+				03CF537D1C09937000815ADD /* nicoStart.jpg */,
+				03CF537E1C09937000815ADD /* nicoStartBtn_03.png */,
+				03CF53791C09936700815ADD /* nicoStartTag_03.png */,
+				03CF537A1C09936700815ADD /* nicoStartTag.jpg */,
+			);
+			name = sugawakun_img;
+			sourceTree = "<group>";
+		};
 		03D7E2A51C095CE90041F992 /* icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +362,7 @@
 		39B181F21C097FA8000D72E7 /* nicoTag */ = {
 			isa = PBXGroup;
 			children = (
+				BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */,
 				39B181F31C097FA8000D72E7 /* nicoTag_1.png */,
 				39B181F41C097FA8000D72E7 /* nicoTag_2.png */,
 				39B181F51C097FA8000D72E7 /* nicoTag_3.png */,
@@ -465,13 +491,17 @@
 				39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */,
 				39B181F91C097FA8000D72E7 /* nicoTag_2.png in Resources */,
 				39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */,
+				BABA5E971C099A09005F5E4B /* nicoRogo2_03.png in Resources */,
 				03D7E2BA1C095CF90041F992 /* icon@2x_167x167.png in Resources */,
 				03D7E2E11C09698B0041F992 /* nicoBtn_4.png in Resources */,
 				03D7E2C01C095CF90041F992 /* spotlight_icon@2x_80x80.png in Resources */,
 				03D7E2C21C095CF90041F992 /* spotlight_icon@3x_180x180.png in Resources */,
 				030EAC571C08B61D00FDA334 /* LaunchScreen.storyboard in Resources */,
+				BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */,
 				03D7E2C51C095CF90041F992 /* webclip_icon@2x_152x152.png in Resources */,
+				03CF53801C09937000815ADD /* nicoStartBtn_03.png in Resources */,
 				03D7E2BE1C095CF90041F992 /* setting_icon@3x_87x87.png in Resources */,
+				03CF537C1C09936700815ADD /* nicoStartTag.jpg in Resources */,
 				03D7E2E21C09698B0041F992 /* nicoMain.png in Resources */,
 				03D7E2C41C095CF90041F992 /* webclip_icon@2x_120x120.png in Resources */,
 				03D7E2C11C095CF90041F992 /* spotlight_icon@2x_120x120.png in Resources */,
@@ -484,6 +514,7 @@
 				03D7E2B71C095CF90041F992 /* icon@1x_76x76.png in Resources */,
 				03D7E2BD1C095CF90041F992 /* setting_icon@2x_58x58.png in Resources */,
 				030EAC8D1C08FFA000FDA334 /* oneself.jpg in Resources */,
+				03CF537B1C09936700815ADD /* nicoStartTag_03.png in Resources */,
 				030EAC4F1C08B61D00FDA334 /* Main.storyboard in Resources */,
 				03D7E29E1C094FF90041F992 /* animation01.gif in Resources */,
 				03D7E2E61C0976D90041F992 /* images-2.png in Resources */,
@@ -493,6 +524,7 @@
 				03D7E2A21C09555C0041F992 /* ニコニコ2x.gif in Resources */,
 				03D7E2BF1C095CF90041F992 /* spotlight_icon@2x_60x60.png in Resources */,
 				03D7E2B91C095CF90041F992 /* icon@2x_152x152.png in Resources */,
+				03CF537F1C09937000815ADD /* nicoStart.jpg in Resources */,
 				03D7E2DF1C09698B0041F992 /* nicoBtn_2.png in Resources */,
 				030EAC8F1C09437600FDA334 /* niconico.png in Resources */,
 				03D7E2DE1C09698B0041F992 /* nicoBtn_1.png in Resources */,

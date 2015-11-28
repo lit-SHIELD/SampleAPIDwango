@@ -23,20 +23,31 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         // Do any additional setup after loading the view, typically from a nib.
         
-
+        
         
         let gifUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ニコニコ2x", ofType: "gif")!)   //システムサウンドのパスを指定
         
         imageGIF.image = UIImage.animatedImageWithAnimatedGIFURL(gifUrl)
         
         let myUD = NSUserDefaults.standardUserDefaults()
-
         
-        let keyWord : String = myUD.stringForKey("QID")!
-        print(keyWord)
+        var keyWord : String!
         
+        if(myUD.stringForKey("QID") != nil){
+        
+            keyWord = myUD.stringForKey("QID")!
+            print(keyWord)
+        }else{
+            keyWord  = "niconico"
+        }
+    
         
         let url =  "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=" + keyWord + "&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=10&_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
         
@@ -67,10 +78,9 @@ class MainViewController: UIViewController {
         
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "update2:", name: "Introduction", object: nil)
-
+        
         
 
-        
     }
     //関数で受け取った時のアクションを定義
     func update(notification: NSNotification)  {
@@ -132,7 +142,7 @@ class MainViewController: UIViewController {
             
         }
         
-        let rect : CGRect = CGRectMake(0,0,self.view.frame.width,view.frame.height / 2)
+        let rect : CGRect = CGRectMake(0,100,self.view.frame.width,view.frame.height / 2)
         
         let draggableBackground = DraggableViewBackground(frame: rect)
         
