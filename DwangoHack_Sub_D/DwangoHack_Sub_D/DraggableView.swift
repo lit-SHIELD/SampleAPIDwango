@@ -168,7 +168,7 @@ class DraggableView: UIView {
             UIView.animateWithDuration(0.3, animations: {
                 self.center = self.originalPoint
                 self.transform = CGAffineTransformMakeRotation(0)
-                self.overlayView!.alpha = 0
+                //self.overlayView!.alpha = 0
             })
         
         }else{
