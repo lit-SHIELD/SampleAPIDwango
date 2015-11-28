@@ -22,16 +22,21 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         // Do any additional setup after loading the view, typically from a nib.
         
-
+        
         
         let gifUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ニコニコ2x", ofType: "gif")!)   //システムサウンドのパスを指定
         
         imageGIF.image = UIImage.animatedImageWithAnimatedGIFURL(gifUrl)
         
         let myUD = NSUserDefaults.standardUserDefaults()
-
+        
         
         let keyWord : String = myUD.stringForKey("QID")!
         print(keyWord)
@@ -66,10 +71,9 @@ class MainViewController: UIViewController {
         
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "update2:", name: "Introduction", object: nil)
-
+        
         
 
-        
     }
     //関数で受け取った時のアクションを定義
     func update(notification: NSNotification)  {
@@ -131,7 +135,7 @@ class MainViewController: UIViewController {
             
         }
         
-        let rect : CGRect = CGRectMake(0,0,self.view.frame.width,view.frame.height / 2)
+        let rect : CGRect = CGRectMake(0,100,self.view.frame.width,view.frame.height / 2)
         
         let draggableBackground = DraggableViewBackground(frame: rect)
         

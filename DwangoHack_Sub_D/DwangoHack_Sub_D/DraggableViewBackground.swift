@@ -59,7 +59,7 @@ class DraggableViewBackground: UIView, DraggableViewDelegate{
     }
     
     func createDraggableViewWithDataAtIndex(index: Int) -> DraggableView {
-        let draggableView: DraggableView = DraggableView(frame:CGRectMake(40, 163, CARD_WIDTH - 20, CARD_HEIGHT - 80))
+        let draggableView: DraggableView = DraggableView(frame:CGRectMake(40, 63, CARD_WIDTH - 20, CARD_HEIGHT - 80))
         draggableView.information.text = cards[index].title
         draggableView.information.numberOfLines = 3
         draggableView.information.textColor = UIColor.redColor()
