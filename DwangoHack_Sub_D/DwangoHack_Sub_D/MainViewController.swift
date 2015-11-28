@@ -16,11 +16,15 @@ class MainViewController: UIViewController {
     
     @IBOutlet var imageGIF: UIImageView!
     
+    @IBOutlet var label: UILabel!
+    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+
         
         let gifUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ニコニコ2x", ofType: "gif")!)   //システムサウンドのパスを指定
         
