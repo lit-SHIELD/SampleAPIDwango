@@ -100,7 +100,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="325" y="327"/>
+            <point key="canvasLocation" x="296" y="533"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="t3o-0M-fPq">
+            <objects>
+                <viewController id="wuD-qo-2cj" customClass="SearchViewController" customModule="DwangoHack_Sub_D" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7V7-bh-HTy"/>
+                        <viewControllerLayoutGuide type="bottom" id="2CN-H6-COA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QJx-eZ-Mjs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C8d-Lw-NFj">
+                                <rect key="frame" x="85" y="179" width="171" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nwx-Z1-GQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="798" y="1303"/>
         </scene>
         <!--Op View Controller-->
         <scene sceneID="Mw1-zX-9XU">
