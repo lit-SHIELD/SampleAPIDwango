@@ -37,10 +37,16 @@ class MainViewController: UIViewController {
         
         let myUD = NSUserDefaults.standardUserDefaults()
         
+        var keyWord : String!
         
-        let keyWord : String = myUD.stringForKey("QID")!
-        print(keyWord)
+        if(myUD.stringForKey("QID") != nil){
         
+            keyWord = myUD.stringForKey("QID")!
+            print(keyWord)
+        }else{
+            keyWord  = "niconico"
+        }
+    
         
         let url =  "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=" + keyWord + "&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=10&_sort=-viewCounter&_offset=0&_limit=10&_context=apiguide"
         
