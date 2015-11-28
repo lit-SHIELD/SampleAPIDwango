@@ -149,6 +149,18 @@ class MainViewController: UIViewController {
         
         self.view.addSubview(draggableBackground)
         
+        
+        
+    }
+    @IBAction func infoButtonAction(sender: AnyObject) {
+        let n : NSNotification = NSNotification(name: "TOCARD", object: self, userInfo:nil)
+        //通知を送る
+        NSNotificationCenter.defaultCenter().postNotification(n)
+    }
+    @IBAction func infoA(sender: AnyObject) {
+        let n : NSNotification = NSNotification(name: "TOCARD", object: self, userInfo:["value":"info"])
+        //通知を送る
+        NSNotificationCenter.defaultCenter().postNotification(n)
     }
     
     

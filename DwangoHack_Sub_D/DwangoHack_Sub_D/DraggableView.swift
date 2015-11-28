@@ -97,7 +97,25 @@ class DraggableView: UIView {
     }
     
     func update(notification: NSNotification)  {
-        UserInfoGo()
+        if let userInfo = notification.userInfo {
+            let result = userInfo["value"]! as! String
+            if(result == "info"){
+                
+                let n : NSNotification = NSNotification(name: "Introduction", object: self, userInfo: ["value": myDescription])
+                //通知を送る
+                NSNotificationCenter.defaultCenter().postNotification(n)
+                
+            }else{
+                UserInfoGo()
+            }
+        }
+        
+        
+        
+        let n : NSNotification = NSNotification(name: "Introduction", object: self, userInfo: ["value": myDescription])
+        //通知を送る
+        NSNotificationCenter.defaultCenter().postNotification(n)
+
     }
     func UserInfoGo(){ //タップを検知した時に呼ばれる関数
         let n : NSNotification = NSNotification(name: "tap", object: self, userInfo: ["value": url])
