@@ -65,6 +65,8 @@
 		39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F61C097FA8000D72E7 /* nicoTag_4.png */; };
 		39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F71C097FA8000D72E7 /* nivcoTagMain.jpg */; };
 		39B181FE1C0980B9000D72E7 /* main_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181FD1C0980B9000D72E7 /* main_03.png */; };
+		BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */; };
+		BABA5E971C099A09005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +155,8 @@
 		39B181FD1C0980B9000D72E7 /* main_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_03.png; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
+		BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
+		BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +268,7 @@
 		030EAC7C1C08C8C100FDA334 /* Resouse */ = {
 			isa = PBXGroup;
 			children = (
+				BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */,
 				03CF53781C09935500815ADD /* sugawakun_img */,
 				39B181F21C097FA8000D72E7 /* nicoTag */,
 				03D7E2E31C096A560041F992 /* nicoBtnBack.png */,
@@ -357,6 +362,7 @@
 		39B181F21C097FA8000D72E7 /* nicoTag */ = {
 			isa = PBXGroup;
 			children = (
+				BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */,
 				39B181F31C097FA8000D72E7 /* nicoTag_1.png */,
 				39B181F41C097FA8000D72E7 /* nicoTag_2.png */,
 				39B181F51C097FA8000D72E7 /* nicoTag_3.png */,
@@ -485,11 +491,13 @@
 				39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */,
 				39B181F91C097FA8000D72E7 /* nicoTag_2.png in Resources */,
 				39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */,
+				BABA5E971C099A09005F5E4B /* nicoRogo2_03.png in Resources */,
 				03D7E2BA1C095CF90041F992 /* icon@2x_167x167.png in Resources */,
 				03D7E2E11C09698B0041F992 /* nicoBtn_4.png in Resources */,
 				03D7E2C01C095CF90041F992 /* spotlight_icon@2x_80x80.png in Resources */,
 				03D7E2C21C095CF90041F992 /* spotlight_icon@3x_180x180.png in Resources */,
 				030EAC571C08B61D00FDA334 /* LaunchScreen.storyboard in Resources */,
+				BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */,
 				03D7E2C51C095CF90041F992 /* webclip_icon@2x_152x152.png in Resources */,
 				03CF53801C09937000815ADD /* nicoStartBtn_03.png in Resources */,
 				03D7E2BE1C095CF90041F992 /* setting_icon@3x_87x87.png in Resources */,
