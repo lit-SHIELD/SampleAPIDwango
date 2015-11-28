@@ -64,7 +64,7 @@ class DraggableView: UIView {
         information.textColor = UIColor.redColor()
         
         
-        informationView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
+        informationView.frame = CGRectMake(5, 5, self.frame.size.width - 10, self.frame.size.height - 10)
         
         
         

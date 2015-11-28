@@ -120,8 +120,9 @@ class MainViewController: UIViewController {
             
         }
         
-
-        let draggableBackground = DraggableViewBackground(frame: self.view.frame)
+        let rect : CGRect = CGRectMake(0,0,self.view.frame.width,view.frame.height / 2)
+        
+        let draggableBackground = DraggableViewBackground(frame: rect)
         
         draggableBackground.cards = cardInfos
         

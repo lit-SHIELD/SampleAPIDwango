@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0mN-EH-6DJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="585" y="-208"/>
+            <point key="canvasLocation" x="736" y="533"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -61,34 +61,45 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="niconico.png" translatesAutoresizingMaskIntoConstraints="NO" id="0qX-jO-nbE">
-                                <rect key="frame" x="-37" y="1" width="379" height="363"/>
-                                <animations/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nicoBtnBack.png" translatesAutoresizingMaskIntoConstraints="NO" id="XJA-Uw-NDY">
-                                <rect key="frame" x="20" y="402" width="280" height="98"/>
+                                <rect key="frame" x="20" y="435" width="280" height="98"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D32-AS-0YE">
-                                <rect key="frame" x="244" y="410" width="50" height="50"/>
+                                <rect key="frame" x="244" y="443" width="50" height="50"/>
                                 <animations/>
                                 <state key="normal" backgroundImage="nicoBtn_4.png"/>
+                                <connections>
+                                    <segue destination="wuD-qo-2cj" kind="show" id="KJx-ha-ieB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0g-Op-mRm">
-                                <rect key="frame" x="27" y="410" width="50" height="50"/>
+                                <rect key="frame" x="27" y="443" width="50" height="50"/>
                                 <animations/>
                                 <state key="normal" backgroundImage="nicoBtn_1.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRm-CI-uqt">
-                                <rect key="frame" x="81" y="413" width="77" height="77"/>
+                                <rect key="frame" x="81" y="446" width="77" height="77"/>
                                 <animations/>
                                 <state key="normal" backgroundImage="nicoBtn_2.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zs-hM-dj9">
-                                <rect key="frame" x="164" y="413" width="77" height="77"/>
+                                <rect key="frame" x="164" y="446" width="77" height="77"/>
                                 <animations/>
                                 <state key="normal" backgroundImage="nicoBtn_3.png"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRX-lJ-R9g">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.85490196078431369" blue="0.32156862745098042" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.9882352941176471" green="0.85490196078431369" blue="0.32156862745098042" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="niconico.png" translatesAutoresizingMaskIntoConstraints="NO" id="0qX-jO-nbE">
+                                <rect key="frame" x="-24" y="63" width="355" height="350"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -114,8 +125,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chr-xw-pCD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.85490196080000003" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.85490196080000003" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C8d-Lw-NFj">
-                                <rect key="frame" x="85" y="179" width="171" height="30"/>
+                                <rect key="frame" x="75" y="205" width="171" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -128,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nwx-Z1-GQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="1303"/>
+            <point key="canvasLocation" x="296" y="1327"/>
         </scene>
         <!--Op View Controller-->
         <scene sceneID="Mw1-zX-9XU">
@@ -157,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Qy-iM-6h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="879" y="547"/>
+            <point key="canvasLocation" x="1287" y="1347"/>
         </scene>
     </scenes>
     <resources>
