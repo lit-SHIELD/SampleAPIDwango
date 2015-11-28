@@ -23,9 +23,7 @@
 		030EAC8B1C08E5E400FDA334 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EAC8A1C08E5E400FDA334 /* CardInfo.swift */; };
 		030EAC8D1C08FFA000FDA334 /* oneself.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030EAC8C1C08FFA000FDA334 /* oneself.jpg */; };
 		030EAC8F1C09437600FDA334 /* niconico.png in Resources */ = {isa = PBXBuildFile; fileRef = 030EAC8E1C09437600FDA334 /* niconico.png */; };
-		03D7E29C1C094CC10041F992 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E29B1C094CC10041F992 /* UIImage+animatedGIF.m */; };
 		03D7E29E1C094FF90041F992 /* animation01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E29D1C094FF90041F992 /* animation01.gif */; };
-		03D7E2A01C0954550041F992 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E29F1C0954550041F992 /* UIImage+Gif.swift */; };
 		03D7E2A21C09555C0041F992 /* ニコニコ2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */; };
 		03D7E2A41C0956240041F992 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A31C0956240041F992 /* demo.gif */; };
 		03D7E2B71C095CF90041F992 /* icon@1x_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A61C095CF90041F992 /* icon@1x_76x76.png */; };
@@ -45,6 +43,8 @@
 		03D7E2C51C095CF90041F992 /* webclip_icon@2x_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2B41C095CF90041F992 /* webclip_icon@2x_152x152.png */; };
 		03D7E2C61C095CF90041F992 /* webclip_icon@2x_167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2B51C095CF90041F992 /* webclip_icon@2x_167x167.png */; };
 		03D7E2C71C095CF90041F992 /* webclip_icon@3x_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2B61C095CF90041F992 /* webclip_icon@3x_180x180.png */; };
+		03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */; };
+		03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */; };
 		1E3DD6A0473962060CD8366B /* Pods_DwangoHack_Sub_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,10 +89,7 @@
 		030EAC8C1C08FFA000FDA334 /* oneself.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneself.jpg; sourceTree = "<group>"; };
 		030EAC8E1C09437600FDA334 /* niconico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niconico.png; sourceTree = "<group>"; };
 		03D7E2991C094CC00041F992 /* DwangoHack_Sub_D-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DwangoHack_Sub_D-Bridging-Header.h"; sourceTree = "<group>"; };
-		03D7E29A1C094CC10041F992 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
-		03D7E29B1C094CC10041F992 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		03D7E29D1C094FF90041F992 /* animation01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation01.gif; sourceTree = "<group>"; };
-		03D7E29F1C0954550041F992 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ニコニコ2x.gif"; sourceTree = "<group>"; };
 		03D7E2A31C0956240041F992 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		03D7E2A61C095CF90041F992 /* icon@1x_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@1x_76x76.png"; sourceTree = "<group>"; };
@@ -112,6 +109,9 @@
 		03D7E2B41C095CF90041F992 /* webclip_icon@2x_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webclip_icon@2x_152x152.png"; sourceTree = "<group>"; };
 		03D7E2B51C095CF90041F992 /* webclip_icon@2x_167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webclip_icon@2x_167x167.png"; sourceTree = "<group>"; };
 		03D7E2B61C095CF90041F992 /* webclip_icon@3x_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webclip_icon@3x_180x180.png"; sourceTree = "<group>"; };
+		03D7E2C81C0963C30041F992 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		199DB5011E271E1CB786EB41 /* Pods-DwangoHack_Sub_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.debug.xcconfig"; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,9 +168,9 @@
 		030EAC481C08B61D00FDA334 /* DwangoHack_Sub_D */ = {
 			isa = PBXGroup;
 			children = (
-				03D7E29F1C0954550041F992 /* UIImage+Gif.swift */,
-				03D7E29A1C094CC10041F992 /* UIImage+animatedGIF.h */,
-				03D7E29B1C094CC10041F992 /* UIImage+animatedGIF.m */,
+				03D7E2C81C0963C30041F992 /* UIImage+animatedGIF.h */,
+				03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */,
+				03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */,
 				030EAC491C08B61D00FDA334 /* AppDelegate.swift */,
 				030EAC7E1C08C8C500FDA334 /* Storyboard */,
 				030EAC7D1C08C8C300FDA334 /* Controllers */,
@@ -509,8 +509,8 @@
 				030EAC861C08E43700FDA334 /* DraggableViewBackground.swift in Sources */,
 				030EAC8B1C08E5E400FDA334 /* CardInfo.swift in Sources */,
 				030EAC521C08B61D00FDA334 /* DwangoHack_Sub_D.xcdatamodeld in Sources */,
-				03D7E2A01C0954550041F992 /* UIImage+Gif.swift in Sources */,
-				03D7E29C1C094CC10041F992 /* UIImage+animatedGIF.m in Sources */,
+				03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */,
+				03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */,
 				030EAC871C08E43700FDA334 /* OverlayView.swift in Sources */,
 				030EAC4C1C08B61D00FDA334 /* OpViewController.swift in Sources */,
 				030EAC4A1C08B61D00FDA334 /* AppDelegate.swift in Sources */,
