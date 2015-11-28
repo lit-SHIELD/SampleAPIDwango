@@ -97,7 +97,7 @@ class StartTagViewController: UIViewController {
                 goTag = StartTag[i]
             
             }else{
-                goTag += " OR " + StartTag[i]
+                goTag += "%20OR%20" + StartTag[i]
             }
        
         }

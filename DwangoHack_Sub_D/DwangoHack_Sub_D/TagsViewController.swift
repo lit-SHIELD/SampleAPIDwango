@@ -80,6 +80,8 @@ class TagsViewController: UIViewController {
         self.saveQID()
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    
     @IBAction func hatenaChangeColor(sender: UIButton) {
         if sender.tintColor == hatenaColor {
             sender.tintColor = UIColor.whiteColor()
@@ -98,7 +100,7 @@ class TagsViewController: UIViewController {
             
             
             if i > 0 {
-                searchWord = searchWord + " OR " + searchTagArray[i]
+                searchWord = searchWord + "%20OR%20" + searchTagArray[i]
             } else {
                 searchWord = searchTagArray[i]
             }
@@ -110,5 +112,8 @@ class TagsViewController: UIViewController {
         
     }
     
+    @IBAction func back(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
 }
