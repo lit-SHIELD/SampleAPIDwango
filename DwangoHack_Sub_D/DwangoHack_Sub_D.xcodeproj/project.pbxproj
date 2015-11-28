@@ -27,6 +27,8 @@
 		03CF537C1C09936700815ADD /* nicoStartTag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537A1C09936700815ADD /* nicoStartTag.jpg */; };
 		03CF537F1C09937000815ADD /* nicoStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537D1C09937000815ADD /* nicoStart.jpg */; };
 		03CF53801C09937000815ADD /* nicoStartBtn_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF537E1C09937000815ADD /* nicoStartBtn_03.png */; };
+		03CF53831C09A26800815ADD /* back_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF53811C09A26800815ADD /* back_image.png */; };
+		03CF53841C09A26800815ADD /* scoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CF53821C09A26800815ADD /* scoop.png */; };
 		03D7E29E1C094FF90041F992 /* animation01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E29D1C094FF90041F992 /* animation01.gif */; };
 		03D7E2A21C09555C0041F992 /* ニコニコ2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */; };
 		03D7E2A41C0956240041F992 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2A31C0956240041F992 /* demo.gif */; };
@@ -113,6 +115,8 @@
 		03CF537A1C09936700815ADD /* nicoStartTag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicoStartTag.jpg; sourceTree = "<group>"; };
 		03CF537D1C09937000815ADD /* nicoStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicoStart.jpg; sourceTree = "<group>"; };
 		03CF537E1C09937000815ADD /* nicoStartBtn_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoStartBtn_03.png; sourceTree = "<group>"; };
+		03CF53811C09A26800815ADD /* back_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_image.png; sourceTree = "<group>"; };
+		03CF53821C09A26800815ADD /* scoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoop.png; sourceTree = "<group>"; };
 		03D7E2991C094CC00041F992 /* DwangoHack_Sub_D-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DwangoHack_Sub_D-Bridging-Header.h"; sourceTree = "<group>"; };
 		03D7E29D1C094FF90041F992 /* animation01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation01.gif; sourceTree = "<group>"; };
 		03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ニコニコ2x.gif"; sourceTree = "<group>"; };
@@ -319,6 +323,8 @@
 		03CF53781C09935500815ADD /* sugawakun_img */ = {
 			isa = PBXGroup;
 			children = (
+				03CF53811C09A26800815ADD /* back_image.png */,
+				03CF53821C09A26800815ADD /* scoop.png */,
 				03CF537D1C09937000815ADD /* nicoStart.jpg */,
 				03CF537E1C09937000815ADD /* nicoStartBtn_03.png */,
 				03CF53791C09936700815ADD /* nicoStartTag_03.png */,
@@ -498,10 +504,12 @@
 				03D7E2C21C095CF90041F992 /* spotlight_icon@3x_180x180.png in Resources */,
 				030EAC571C08B61D00FDA334 /* LaunchScreen.storyboard in Resources */,
 				BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */,
+				03CF53841C09A26800815ADD /* scoop.png in Resources */,
 				03D7E2C51C095CF90041F992 /* webclip_icon@2x_152x152.png in Resources */,
 				03CF53801C09937000815ADD /* nicoStartBtn_03.png in Resources */,
 				03D7E2BE1C095CF90041F992 /* setting_icon@3x_87x87.png in Resources */,
 				03CF537C1C09936700815ADD /* nicoStartTag.jpg in Resources */,
+				03CF53831C09A26800815ADD /* back_image.png in Resources */,
 				03D7E2E21C09698B0041F992 /* nicoMain.png in Resources */,
 				03D7E2C41C095CF90041F992 /* webclip_icon@2x_120x120.png in Resources */,
 				03D7E2C11C095CF90041F992 /* spotlight_icon@2x_120x120.png in Resources */,
