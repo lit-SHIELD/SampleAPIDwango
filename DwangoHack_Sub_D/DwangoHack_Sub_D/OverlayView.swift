@@ -26,7 +26,7 @@ class OverlayView: UIView{
         super.init(frame: frame)
         self.backgroundColor = UIColor.whiteColor()
         imageView = UIImageView(image:UIImage(named: "mark_cross.png"))
-        self.addSubview(imageView)
+        //self.addSubview(imageView)
     }
     
     func setMode(mode: GGOverlayViewMode) {

@@ -56,12 +56,12 @@ class DraggableView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupView()
-        information = UILabel(frame:CGRectMake(0, 100, self.frame.size.width, 100))
+        information = UILabel(frame:CGRectMake(0, 100, self.frame.size.width, 70))
 
         
         information.text = "no info given"
         information.textAlignment = NSTextAlignment.Center
-        information.textColor = UIColor.blackColor()
+        information.textColor = UIColor.redColor()
         
         
         informationView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
@@ -87,10 +87,10 @@ class DraggableView: UIView {
         self.addSubview(information)
 
         
-        overlayView = OverlayView(frame: CGRectMake(self.frame.size.width/2-100, 0, 100, 100))
-        overlayView!.alpha = 0
-        self.addSubview(overlayView!)
-        
+//        overlayView = OverlayView(frame: CGRectMake(self.frame.size.width/2-100, 0, 100, 100))
+//        overlayView!.alpha = 0
+//        self.addSubview(overlayView!)
+//        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "update:", name: "TOCARD", object: nil)
 
         
@@ -146,13 +146,13 @@ class DraggableView: UIView {
     }
     
     func updateOverlay(distance: CGFloat) {
-        if distance > 0 {
-            overlayView!.setMode(GGOverlayViewMode.Right)
-        } else {
-            overlayView!.setMode(GGOverlayViewMode.Left)
-        }
+//        if distance > 0 {
+//            overlayView!.setMode(GGOverlayViewMode.Right)
+//        } else {
+//            overlayView!.setMode(GGOverlayViewMode.Left)
+//        }
         
-        overlayView!.alpha = min(CGFloat(fabsf(Float(distance))/100), 0.4)
+      //  overlayView!.alpha = min(CGFloat(fabsf(Float(distance))/100), 0.4)
     }
     
     func afterSwipeAction(xFromCenter: CGFloat , yFromCenter:CGFloat) {
@@ -175,7 +175,7 @@ class DraggableView: UIView {
             UIView.animateWithDuration(0.3, animations: {
                 self.center = self.originalPoint
                 self.transform = CGAffineTransformMakeRotation(0)
-                self.overlayView!.alpha = 0
+                //self.overlayView!.alpha = 0
             })
         }
         

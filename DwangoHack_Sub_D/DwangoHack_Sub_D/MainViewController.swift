@@ -14,9 +14,17 @@ import SwiftyJSON
 class MainViewController: UIViewController {
     
     
+    @IBOutlet var imageGIF: UIImageView!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let gifUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ニコニコ2x", ofType: "gif")!)   //システムサウンドのパスを指定
+        
+        imageGIF.image = UIImage.animatedImageWithAnimatedGIFURL(gifUrl)
         
         let url = "http://api.search.nicovideo.jp/api/v2/video/contents/search?q=programming&targets=title&fields=contentId,title,thumbnailUrl,description,viewCounter&filters[viewCounter][gte]=500&_sort=-viewCounter&_offset=0&_limit=100&_context=apiguide"
         

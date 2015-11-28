@@ -62,10 +62,11 @@ class DraggableViewBackground: UIView, DraggableViewDelegate{
         let draggableView: DraggableView = DraggableView(frame:CGRectMake(40, 110, CARD_WIDTH - 20, CARD_HEIGHT - 80))
         draggableView.information.text = cards[index].title
         draggableView.information.numberOfLines = 3
-        draggableView.information.textColor = UIColor.grayColor()
+        draggableView.information.textColor = UIColor.redColor()
+        draggableView.informationView.backgroundColor = UIColor.grayColor()
         
         // UIImageViewのインスタンス
-        // URLを指定したUIImageの生成例
+        // URLを指定しsたUIImageの生成例
         let url = NSURL(string : cards[index].image_url);
         draggableView.myDescription = cards[index].description
         
