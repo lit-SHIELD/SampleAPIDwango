@@ -7,12 +7,15 @@
 //
 
 import UIKit
-import ParkedTextField
 
-class SearchViewController: UIViewController, UITextFieldDelegate {
+class SearchViewController: UIViewController, UITextFieldDelegate{
 
     @IBOutlet weak var searchTextField: UITextField!
+   
     
+    let userDefaults = NSUserDefaults.standardUserDefaults()
+    
+    @IBOutlet weak var searchButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,11 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
         
         searchTextField.delegate = self
+        
+        searchButton.layer.cornerRadius = searchButton.layer.bounds.width/2
+        searchButton.clipsToBounds = true
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,9 +36,14 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if searchTextField.text != nil {
+        userDefaults.setObject(searchTextField.text, forKey: "QID")
+        }
         textField.resignFirstResponder()
         return true
     }
+    
+    
 
     
 

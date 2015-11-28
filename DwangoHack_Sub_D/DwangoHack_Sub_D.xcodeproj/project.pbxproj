@@ -54,6 +54,13 @@
 		03D7E2E61C0976D90041F992 /* images-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2E51C0976D90041F992 /* images-2.png */; };
 		1E3DD6A0473962060CD8366B /* Pods_DwangoHack_Sub_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */; };
 		39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B181EC1C0966C8000D72E7 /* SearchViewController.swift */; };
+		39B181F11C097EA4000D72E7 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B181F01C097EA4000D72E7 /* TagsViewController.swift */; };
+		39B181F81C097FA8000D72E7 /* nicoTag_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F31C097FA8000D72E7 /* nicoTag_1.png */; };
+		39B181F91C097FA8000D72E7 /* nicoTag_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F41C097FA8000D72E7 /* nicoTag_2.png */; };
+		39B181FA1C097FA8000D72E7 /* nicoTag_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F51C097FA8000D72E7 /* nicoTag_3.png */; };
+		39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F61C097FA8000D72E7 /* nicoTag_4.png */; };
+		39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B181F71C097FA8000D72E7 /* nivcoTagMain.jpg */; };
+		39B181FE1C0980B9000D72E7 /* main_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181FD1C0980B9000D72E7 /* main_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +136,13 @@
 		03D7E2E51C0976D90041F992 /* images-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-2.png"; sourceTree = "<group>"; };
 		199DB5011E271E1CB786EB41 /* Pods-DwangoHack_Sub_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.debug.xcconfig"; sourceTree = "<group>"; };
 		39B181EC1C0966C8000D72E7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		39B181F01C097EA4000D72E7 /* TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		39B181F31C097FA8000D72E7 /* nicoTag_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoTag_1.png; sourceTree = "<group>"; };
+		39B181F41C097FA8000D72E7 /* nicoTag_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoTag_2.png; sourceTree = "<group>"; };
+		39B181F51C097FA8000D72E7 /* nicoTag_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoTag_3.png; sourceTree = "<group>"; };
+		39B181F61C097FA8000D72E7 /* nicoTag_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoTag_4.png; sourceTree = "<group>"; };
+		39B181F71C097FA8000D72E7 /* nivcoTagMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nivcoTagMain.jpg; sourceTree = "<group>"; };
+		39B181FD1C0980B9000D72E7 /* main_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_03.png; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,6 +256,7 @@
 		030EAC7C1C08C8C100FDA334 /* Resouse */ = {
 			isa = PBXGroup;
 			children = (
+				39B181F21C097FA8000D72E7 /* nicoTag */,
 				03D7E2E31C096A560041F992 /* nicoBtnBack.png */,
 				03D7E2D91C09698B0041F992 /* nicoBtn_1.png */,
 				03D7E2E51C0976D90041F992 /* images-2.png */,
@@ -249,6 +264,7 @@
 				03D7E2DB1C09698B0041F992 /* nicoBtn_3.png */,
 				03D7E2DC1C09698B0041F992 /* nicoBtn_4.png */,
 				03D7E2DD1C09698B0041F992 /* nicoMain.png */,
+				39B181FD1C0980B9000D72E7 /* main_03.png */,
 				03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */,
 				03D7E2A31C0956240041F992 /* demo.gif */,
 				030EAC8C1C08FFA000FDA334 /* oneself.jpg */,
@@ -264,6 +280,7 @@
 				030EAC801C08DFF400FDA334 /* MovieViewController.swift */,
 				39B181EC1C0966C8000D72E7 /* SearchViewController.swift */,
 				030EAC881C08E53C00FDA334 /* MainViewController.swift */,
+				39B181F01C097EA4000D72E7 /* TagsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -315,6 +332,18 @@
 				43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39B181F21C097FA8000D72E7 /* nicoTag */ = {
+			isa = PBXGroup;
+			children = (
+				39B181F31C097FA8000D72E7 /* nicoTag_1.png */,
+				39B181F41C097FA8000D72E7 /* nicoTag_2.png */,
+				39B181F51C097FA8000D72E7 /* nicoTag_3.png */,
+				39B181F61C097FA8000D72E7 /* nicoTag_4.png */,
+				39B181F71C097FA8000D72E7 /* nivcoTagMain.jpg */,
+			);
+			path = nicoTag;
 			sourceTree = "<group>";
 		};
 		4D17178E8BC16459B5E966CE /* Pods */ = {
@@ -433,6 +462,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B181FB1C097FA8000D72E7 /* nicoTag_4.png in Resources */,
+				39B181F91C097FA8000D72E7 /* nicoTag_2.png in Resources */,
+				39B181FC1C097FA8000D72E7 /* nivcoTagMain.jpg in Resources */,
 				03D7E2BA1C095CF90041F992 /* icon@2x_167x167.png in Resources */,
 				03D7E2E11C09698B0041F992 /* nicoBtn_4.png in Resources */,
 				03D7E2C01C095CF90041F992 /* spotlight_icon@2x_80x80.png in Resources */,
@@ -448,6 +480,7 @@
 				03D7E2A41C0956240041F992 /* demo.gif in Resources */,
 				03D7E2B81C095CF90041F992 /* icon@2x_120x120.png in Resources */,
 				030EAC541C08B61D00FDA334 /* Assets.xcassets in Resources */,
+				39B181F81C097FA8000D72E7 /* nicoTag_1.png in Resources */,
 				03D7E2B71C095CF90041F992 /* icon@1x_76x76.png in Resources */,
 				03D7E2BD1C095CF90041F992 /* setting_icon@2x_58x58.png in Resources */,
 				030EAC8D1C08FFA000FDA334 /* oneself.jpg in Resources */,
@@ -464,7 +497,9 @@
 				030EAC8F1C09437600FDA334 /* niconico.png in Resources */,
 				03D7E2DE1C09698B0041F992 /* nicoBtn_1.png in Resources */,
 				03D7E2BB1C095CF90041F992 /* icon@3x_180x180.png in Resources */,
+				39B181FE1C0980B9000D72E7 /* main_03.png in Resources */,
 				03D7E2C31C095CF90041F992 /* webclip_icon@1x_76x76.png in Resources */,
+				39B181FA1C097FA8000D72E7 /* nicoTag_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +578,7 @@
 				03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */,
 				03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */,
 				030EAC871C08E43700FDA334 /* OverlayView.swift in Sources */,
+				39B181F11C097EA4000D72E7 /* TagsViewController.swift in Sources */,
 				39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */,
 				030EAC4C1C08B61D00FDA334 /* OpViewController.swift in Sources */,
 				030EAC4A1C08B61D00FDA334 /* AppDelegate.swift in Sources */,
