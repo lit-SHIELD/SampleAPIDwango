@@ -45,6 +45,12 @@
 		03D7E2C71C095CF90041F992 /* webclip_icon@3x_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2B61C095CF90041F992 /* webclip_icon@3x_180x180.png */; };
 		03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */; };
 		03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */; };
+		03D7E2DE1C09698B0041F992 /* nicoBtn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2D91C09698B0041F992 /* nicoBtn_1.png */; };
+		03D7E2DF1C09698B0041F992 /* nicoBtn_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2DA1C09698B0041F992 /* nicoBtn_2.png */; };
+		03D7E2E01C09698B0041F992 /* nicoBtn_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2DB1C09698B0041F992 /* nicoBtn_3.png */; };
+		03D7E2E11C09698B0041F992 /* nicoBtn_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2DC1C09698B0041F992 /* nicoBtn_4.png */; };
+		03D7E2E21C09698B0041F992 /* nicoMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2DD1C09698B0041F992 /* nicoMain.png */; };
+		03D7E2E41C096A560041F992 /* nicoBtnBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D7E2E31C096A560041F992 /* nicoBtnBack.png */; };
 		1E3DD6A0473962060CD8366B /* Pods_DwangoHack_Sub_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */; };
 		39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B181EC1C0966C8000D72E7 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
@@ -113,6 +119,12 @@
 		03D7E2C81C0963C30041F992 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		03D7E2C91C0963C30041F992 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		03D7E2CA1C0963C30041F992 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		03D7E2D91C09698B0041F992 /* nicoBtn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoBtn_1.png; sourceTree = "<group>"; };
+		03D7E2DA1C09698B0041F992 /* nicoBtn_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoBtn_2.png; sourceTree = "<group>"; };
+		03D7E2DB1C09698B0041F992 /* nicoBtn_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoBtn_3.png; sourceTree = "<group>"; };
+		03D7E2DC1C09698B0041F992 /* nicoBtn_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoBtn_4.png; sourceTree = "<group>"; };
+		03D7E2DD1C09698B0041F992 /* nicoMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoMain.png; sourceTree = "<group>"; };
+		03D7E2E31C096A560041F992 /* nicoBtnBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoBtnBack.png; sourceTree = "<group>"; };
 		199DB5011E271E1CB786EB41 /* Pods-DwangoHack_Sub_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.debug.xcconfig"; sourceTree = "<group>"; };
 		39B181EC1C0966C8000D72E7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		43AE04E0A4C5E23A51895102 /* Pods_DwangoHack_Sub_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DwangoHack_Sub_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +240,12 @@
 		030EAC7C1C08C8C100FDA334 /* Resouse */ = {
 			isa = PBXGroup;
 			children = (
+				03D7E2E31C096A560041F992 /* nicoBtnBack.png */,
+				03D7E2D91C09698B0041F992 /* nicoBtn_1.png */,
+				03D7E2DA1C09698B0041F992 /* nicoBtn_2.png */,
+				03D7E2DB1C09698B0041F992 /* nicoBtn_3.png */,
+				03D7E2DC1C09698B0041F992 /* nicoBtn_4.png */,
+				03D7E2DD1C09698B0041F992 /* nicoMain.png */,
 				03D7E2A11C09555C0041F992 /* ニコニコ2x.gif */,
 				03D7E2A31C0956240041F992 /* demo.gif */,
 				030EAC8C1C08FFA000FDA334 /* oneself.jpg */,
@@ -413,11 +431,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D7E2BA1C095CF90041F992 /* icon@2x_167x167.png in Resources */,
+				03D7E2E11C09698B0041F992 /* nicoBtn_4.png in Resources */,
 				03D7E2C01C095CF90041F992 /* spotlight_icon@2x_80x80.png in Resources */,
 				03D7E2C21C095CF90041F992 /* spotlight_icon@3x_180x180.png in Resources */,
 				030EAC571C08B61D00FDA334 /* LaunchScreen.storyboard in Resources */,
 				03D7E2C51C095CF90041F992 /* webclip_icon@2x_152x152.png in Resources */,
 				03D7E2BE1C095CF90041F992 /* setting_icon@3x_87x87.png in Resources */,
+				03D7E2E21C09698B0041F992 /* nicoMain.png in Resources */,
 				03D7E2C41C095CF90041F992 /* webclip_icon@2x_120x120.png in Resources */,
 				03D7E2C11C095CF90041F992 /* spotlight_icon@2x_120x120.png in Resources */,
 				03D7E2C71C095CF90041F992 /* webclip_icon@3x_180x180.png in Resources */,
@@ -430,11 +450,15 @@
 				030EAC8D1C08FFA000FDA334 /* oneself.jpg in Resources */,
 				030EAC4F1C08B61D00FDA334 /* Main.storyboard in Resources */,
 				03D7E29E1C094FF90041F992 /* animation01.gif in Resources */,
+				03D7E2E41C096A560041F992 /* nicoBtnBack.png in Resources */,
 				03D7E2C61C095CF90041F992 /* webclip_icon@2x_167x167.png in Resources */,
+				03D7E2E01C09698B0041F992 /* nicoBtn_3.png in Resources */,
 				03D7E2A21C09555C0041F992 /* ニコニコ2x.gif in Resources */,
 				03D7E2BF1C095CF90041F992 /* spotlight_icon@2x_60x60.png in Resources */,
 				03D7E2B91C095CF90041F992 /* icon@2x_152x152.png in Resources */,
+				03D7E2DF1C09698B0041F992 /* nicoBtn_2.png in Resources */,
 				030EAC8F1C09437600FDA334 /* niconico.png in Resources */,
+				03D7E2DE1C09698B0041F992 /* nicoBtn_1.png in Resources */,
 				03D7E2BB1C095CF90041F992 /* icon@3x_180x180.png in Resources */,
 				03D7E2C31C095CF90041F992 /* webclip_icon@1x_76x76.png in Resources */,
 			);

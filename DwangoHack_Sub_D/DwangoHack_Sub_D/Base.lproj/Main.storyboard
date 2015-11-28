@@ -65,6 +65,30 @@
                                 <rect key="frame" x="-37" y="1" width="379" height="363"/>
                                 <animations/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nicoBtnBack.png" translatesAutoresizingMaskIntoConstraints="NO" id="XJA-Uw-NDY">
+                                <rect key="frame" x="20" y="402" width="280" height="98"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D32-AS-0YE">
+                                <rect key="frame" x="244" y="410" width="50" height="50"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="nicoBtn_4.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0g-Op-mRm">
+                                <rect key="frame" x="27" y="410" width="50" height="50"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="nicoBtn_1.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRm-CI-uqt">
+                                <rect key="frame" x="81" y="413" width="77" height="77"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="nicoBtn_2.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zs-hM-dj9">
+                                <rect key="frame" x="164" y="413" width="77" height="77"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="nicoBtn_3.png"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -109,6 +133,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="nicoBtnBack.png" width="1156" height="384"/>
+        <image name="nicoBtn_1.png" width="186" height="186"/>
+        <image name="nicoBtn_2.png" width="309" height="309"/>
+        <image name="nicoBtn_3.png" width="311" height="309"/>
+        <image name="nicoBtn_4.png" width="187" height="186"/>
         <image name="niconico.png" width="287" height="243"/>
     </resources>
 </document>
