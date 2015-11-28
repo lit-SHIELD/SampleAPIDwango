@@ -69,6 +69,8 @@
 		39B181FE1C0980B9000D72E7 /* main_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B181FD1C0980B9000D72E7 /* main_03.png */; };
 		BABA5E951C0999C3005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */; };
 		BABA5E971C099A09005F5E4B /* nicoRogo2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */; };
+		BABA5E991C099E6E005F5E4B /* btnNico_06.png in Resources */ = {isa = PBXBuildFile; fileRef = BABA5E981C099E6E005F5E4B /* btnNico_06.png */; };
+		BABA5E9B1C09A14E005F5E4B /* StartTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA5E9A1C09A14E005F5E4B /* StartTagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +163,8 @@
 		5E58BBAEADDB8D353EFA08C5 /* Pods-DwangoHack_Sub_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DwangoHack_Sub_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-DwangoHack_Sub_D/Pods-DwangoHack_Sub_D.release.xcconfig"; sourceTree = "<group>"; };
 		BABA5E941C0999C3005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
 		BABA5E961C099A09005F5E4B /* nicoRogo2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicoRogo2_03.png; sourceTree = "<group>"; };
+		BABA5E981C099E6E005F5E4B /* btnNico_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnNico_06.png; sourceTree = "<group>"; };
+		BABA5E9A1C09A14E005F5E4B /* StartTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +303,7 @@
 				39B181EC1C0966C8000D72E7 /* SearchViewController.swift */,
 				030EAC881C08E53C00FDA334 /* MainViewController.swift */,
 				39B181F01C097EA4000D72E7 /* TagsViewController.swift */,
+				BABA5E9A1C09A14E005F5E4B /* StartTagViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -512,6 +517,7 @@
 				03CF53831C09A26800815ADD /* back_image.png in Resources */,
 				03D7E2E21C09698B0041F992 /* nicoMain.png in Resources */,
 				03D7E2C41C095CF90041F992 /* webclip_icon@2x_120x120.png in Resources */,
+				BABA5E991C099E6E005F5E4B /* btnNico_06.png in Resources */,
 				03D7E2C11C095CF90041F992 /* spotlight_icon@2x_120x120.png in Resources */,
 				03D7E2C71C095CF90041F992 /* webclip_icon@3x_180x180.png in Resources */,
 				03D7E2BC1C095CF90041F992 /* setting_icon@1x_29x29.png in Resources */,
@@ -618,6 +624,7 @@
 				03D7E2CC1C0963C30041F992 /* UIImage+Gif.swift in Sources */,
 				03D7E2CB1C0963C30041F992 /* UIImage+animatedGIF.m in Sources */,
 				030EAC871C08E43700FDA334 /* OverlayView.swift in Sources */,
+				BABA5E9B1C09A14E005F5E4B /* StartTagViewController.swift in Sources */,
 				39B181F11C097EA4000D72E7 /* TagsViewController.swift in Sources */,
 				39B181ED1C0966C8000D72E7 /* SearchViewController.swift in Sources */,
 				030EAC4C1C08B61D00FDA334 /* OpViewController.swift in Sources */,

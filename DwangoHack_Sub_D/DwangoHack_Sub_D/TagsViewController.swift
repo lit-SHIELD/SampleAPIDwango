@@ -10,30 +10,48 @@ import UIKit
 
 class TagsViewController: UIViewController {
     
-    @IBOutlet var nicoTagsLabels: [UILabel]!
-    @IBOutlet var hatenaTagsLabels: [UILabel]!
     
     
-
+    @IBOutlet var nicoTagButtons: [UIButton]!
+    @IBOutlet var hatenaTagButtons: [UIButton]!
+    
+    var nicoTagArray = ["すがわ", "りおりお", "AyumuTakahama", "ほなみ", "まあこ"]
+    var hatenaTagArray = ["Yuki Futagami", "Shoko Yamamoto", "Moe Takei♡", "geba", "Shinra"]
+    
+    let nicoColor = UIColor(red: 245.0 / 255.0, green: 184.0 / 255.0, blue: 63.0 / 255.0, alpha: 1.0)
+    let hatenaColor = UIColor(red: 168.0 / 255.0, green: 203.0 / 255.0, blue: 228.0 / 255.0, alpha: 1.0)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let nicoColor = UIColor(red: 245.0 / 255.0, green: 184.0 / 255.0, blue: 63.0 / 255.0, alpha: 1.0)
-        let hatenaColor = UIColor(red: 168.0 / 255.0, green: 203.0 / 255.0, blue: 228.0 / 255.0, alpha: 1.0)
         
-        for nicoTagsLabel in nicoTagsLabels {
-            nicoTagsLabel.textColor = UIColor.redColor()
-            nicoTagsLabel.layer.borderColor = nicoColor.CGColor
-            nicoTagsLabel.layer.borderWidth = 10
-//            nicoTagsLabel.backgroundColor = UIColor.whiteColor()
+       
+
+        
+        for nicoTagButton in nicoTagButtons {
+            nicoTagButton.layer.borderWidth = 3
+            nicoTagButton.layer.borderColor = nicoColor.CGColor
         }
         
-        for hatenaTagsLabel in hatenaTagsLabels {
-            hatenaTagsLabel.textColor = UIColor.redColor()
-            hatenaTagsLabel.layer.borderColor = hatenaColor.CGColor
-            hatenaTagsLabel.layer.borderWidth = 10
-//            hatenaTagsLabel.backgroundColor = UIColor.whiteColor()
+        for hatenaTagButton in hatenaTagButtons {
+            hatenaTagButton.layer.borderWidth = 3
+            hatenaTagButton.layer.borderColor = hatenaColor.CGColor
             
+        }
+        
+       
+        
+        for i in 0 ..< 5 {
+            nicoTagButtons[i].setTitle(nicoTagArray[i], forState: .)
+            nicoTagButtons[i].tintColor = nicoColor
+            nicoTagButtons[i].sizeToFit()
+        }
+        
+        
+        for j in 0 ..< 5 {
+            hatenaTagButtons[j].setTitle(hatenaTagArray[j], forState: .Default)
+            hatenaTagButtons[j].tintColor = hatenaColor
+            hatenaTagButtons[j].sizeToFit()
         }
         
 
@@ -45,7 +63,16 @@ class TagsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func nicoChangeColor(sender: UIButton) {
+        
+        sender.tintColor = UIColor.whiteColor()
+        sender.backgroundColor = nicoColor
+        
+    }
     
-
+    @IBAction func hatenaChangeColor(sender: UIButton) {
+        sender.tintColor = UIColor.whiteColor()
+        sender.backgroundColor = hatenaColor
+    }
+    
 }
