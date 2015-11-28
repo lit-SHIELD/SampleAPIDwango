@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6o9-gu-mz4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6o9-gu-mz4">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--Movie View Controller-->
@@ -90,96 +90,106 @@
                                 <rect key="frame" x="86" y="220" width="149" height="128"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLa-ZH-s2a">
-                                <rect key="frame" x="20" y="78" width="112" height="38"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rB-6S-t4X">
-                                <rect key="frame" x="102" y="103" width="78" height="41"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkv-7C-w7M">
-                                <rect key="frame" x="217" y="78" width="83" height="37"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xV-xd-eKv">
-                                <rect key="frame" x="38" y="159" width="94" height="37"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waB-VX-xOh">
-                                <rect key="frame" x="64" y="387" width="87" height="43"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNi-UK-IvL">
-                                <rect key="frame" x="198" y="387" width="83" height="43"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z0-m6-oce">
-                                <rect key="frame" x="126" y="438" width="99" height="41"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3B-Tm-9Jv">
-                                <rect key="frame" x="44" y="494" width="83" height="42"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zju-pL-5fn">
-                                <rect key="frame" x="165" y="140" width="94" height="45"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdd-7L-53B">
-                                <rect key="frame" x="217" y="494" width="83" height="42"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nicoTag_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="cx0-FU-Qvs">
                                 <rect key="frame" x="140" y="28" width="40" height="40"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5Q-87-P1d">
+                                <rect key="frame" x="30" y="95" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nicoChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="urc-ps-mXD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdo-ZZ-0PM">
+                                <rect key="frame" x="178" y="95" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nicoChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="ecH-J2-qDd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nO-9A-BaO">
+                                <rect key="frame" x="30" y="173" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nicoChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="Fio-wF-Ecp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-JE-C5z">
+                                <rect key="frame" x="173" y="173" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nicoChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="atk-t9-0vw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yN1-AR-w97">
+                                <rect key="frame" x="30" y="389" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hatenaChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="z4l-GR-T0V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-Bx-ybA">
+                                <rect key="frame" x="173" y="389" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hatenaChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="mpA-Yi-lLD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqA-1z-Nbj">
+                                <rect key="frame" x="104" y="444" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hatenaChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="Xoj-oe-5EF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pj2-YI-Oh7">
+                                <rect key="frame" x="30" y="482" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hatenaChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="Koo-mE-S8J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQL-yB-Ccx">
+                                <rect key="frame" x="178" y="482" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hatenaChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="wA3-JE-g4H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Rw-bx-aNe">
+                                <rect key="frame" x="104" y="135" width="112" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="nicoChangeColor:" destination="CMn-Qv-zA9" eventType="touchUpInside" id="ZUg-YU-WPR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outletCollection property="hatenaTagsLabels" destination="waB-VX-xOh" collectionClass="NSMutableArray" id="ddf-Nh-ahM"/>
-                        <outletCollection property="hatenaTagsLabels" destination="uNi-UK-IvL" collectionClass="NSMutableArray" id="hns-X2-1ni"/>
-                        <outletCollection property="hatenaTagsLabels" destination="4z0-m6-oce" collectionClass="NSMutableArray" id="E1Y-eH-MTK"/>
-                        <outletCollection property="hatenaTagsLabels" destination="F3B-Tm-9Jv" collectionClass="NSMutableArray" id="2Ck-M1-AsL"/>
-                        <outletCollection property="hatenaTagsLabels" destination="Jdd-7L-53B" collectionClass="NSMutableArray" id="VON-PW-UgY"/>
-                        <outletCollection property="nicoTagsLabels" destination="BLa-ZH-s2a" collectionClass="NSMutableArray" id="RCp-MY-rJE"/>
-                        <outletCollection property="nicoTagsLabels" destination="dkv-7C-w7M" collectionClass="NSMutableArray" id="r0L-dA-MQt"/>
-                        <outletCollection property="nicoTagsLabels" destination="0rB-6S-t4X" collectionClass="NSMutableArray" id="Y9p-v7-wZN"/>
-                        <outletCollection property="nicoTagsLabels" destination="8xV-xd-eKv" collectionClass="NSMutableArray" id="P4U-oW-Hmt"/>
-                        <outletCollection property="nicoTagsLabels" destination="zju-pL-5fn" collectionClass="NSMutableArray" id="xQe-YX-dnp"/>
+                        <outletCollection property="nicoTagButtons" destination="y5Q-87-P1d" collectionClass="NSMutableArray" id="ltu-CO-8md"/>
+                        <outletCollection property="nicoTagButtons" destination="Kdo-ZZ-0PM" collectionClass="NSMutableArray" id="kOy-6v-9LV"/>
+                        <outletCollection property="nicoTagButtons" destination="0Rw-bx-aNe" collectionClass="NSMutableArray" id="2hf-nr-dGN"/>
+                        <outletCollection property="nicoTagButtons" destination="9nO-9A-BaO" collectionClass="NSMutableArray" id="b19-jq-faQ"/>
+                        <outletCollection property="nicoTagButtons" destination="GSu-JE-C5z" collectionClass="NSMutableArray" id="a2b-sz-bZt"/>
+                        <outletCollection property="hatenaTagButtons" destination="yN1-AR-w97" collectionClass="NSMutableArray" id="kuY-jS-4MT"/>
+                        <outletCollection property="hatenaTagButtons" destination="0zh-Bx-ybA" collectionClass="NSMutableArray" id="Zvk-3E-o2N"/>
+                        <outletCollection property="hatenaTagButtons" destination="nqA-1z-Nbj" collectionClass="NSMutableArray" id="9L8-1g-dJU"/>
+                        <outletCollection property="hatenaTagButtons" destination="Pj2-YI-Oh7" collectionClass="NSMutableArray" id="HAg-oZ-tQt"/>
+                        <outletCollection property="hatenaTagButtons" destination="jQL-yB-Ccx" collectionClass="NSMutableArray" id="eRE-aR-dkB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c29-oq-Hff" userLabel="First Responder" sceneMemberID="firstResponder"/>

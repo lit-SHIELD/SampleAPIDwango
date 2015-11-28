@@ -10,8 +10,7 @@ import UIKit
 
 class TagsViewController: UIViewController {
     
-    @IBOutlet var nicoTagsLabels: [UILabel]!
-    @IBOutlet var hatenaTagsLabels: [UILabel]!
+    
     
     @IBOutlet var nicoTagButtons: [UIButton]!
     @IBOutlet var hatenaTagButtons: [UIButton]!
@@ -24,6 +23,7 @@ class TagsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
        
 
@@ -42,7 +42,7 @@ class TagsViewController: UIViewController {
        
         
         for i in 0 ..< 5 {
-            nicoTagButtons[i].setTitle(nicoTagArray[i], forState: .Default)
+            nicoTagButtons[i].setTitle(nicoTagArray[i], forState: .)
             nicoTagButtons[i].tintColor = nicoColor
             nicoTagButtons[i].sizeToFit()
         }
@@ -63,12 +63,16 @@ class TagsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func nicoChangeColor(sender: UIBUtton) {
+    @IBAction func nicoChangeColor(sender: UIButton) {
+        
+        sender.tintColor = UIColor.whiteColor()
+        sender.backgroundColor = nicoColor
         
     }
     
-    @IBAction func hatenaChangeColor(sender: UIBUtton) {
-        
+    @IBAction func hatenaChangeColor(sender: UIButton) {
+        sender.tintColor = UIColor.whiteColor()
+        sender.backgroundColor = hatenaColor
     }
     
 }
