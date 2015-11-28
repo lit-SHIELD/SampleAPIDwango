@@ -10,25 +10,57 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class OpViewController: UIViewController {
+class OpViewController: UIViewController , UITextFieldDelegate{
 
     
-    @IBOutlet var imageGIF: UIImageView!
+    @IBOutlet weak var tagText: UITextField!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tagText.delegate = self
         // Do any additional setup after loading the view, typically from a nib
         
 
-        let gifUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ニコニコ2x", ofType: "gif")!)   //システムサウンドのパスを指定
-        
-        imageGIF.image = UIImage.animatedImageWithAnimatedGIFURL(gifUrl)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    /*
+    UITextFieldが編集された直後に呼ばれるデリゲートメソッド.
+    */
+    func textFieldDidBeginEditing(textField: UITextField){
+        print("textFieldDidBeginEditing:" + textField.text!)
+    }
+    
+    /*
+    UITextFieldが編集終了する直前に呼ばれるデリゲートメソッド.
+    */
+    func textFieldShouldEndEditing(textField: UITextField) -> Bool {
+        print("textFieldShouldEndEditing:" + textField.text!)
+        
+        return true
+    }
+    
+    /*
+    改行ボタンが押された際に呼ばれるデリゲートメソッド.
+    */
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        let myUD = NSUserDefaults.standardUserDefaults()
+        myUD.setValue(textField.text!, forKey: "QID")
+
+        print( myUD.stringForKey("QID")! )
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    
 
 }
 
