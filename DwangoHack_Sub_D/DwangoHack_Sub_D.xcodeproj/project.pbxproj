@@ -330,6 +330,7 @@
 			children = (
 				03CF53811C09A26800815ADD /* back_image.png */,
 				03CF53821C09A26800815ADD /* scoop.png */,
+                BABA5E981C099E6E005F5E4B /* btnNico_06.png */,
 				03CF537D1C09937000815ADD /* nicoStart.jpg */,
 				03CF537E1C09937000815ADD /* nicoStartBtn_03.png */,
 				03CF53791C09936700815ADD /* nicoStartTag_03.png */,
