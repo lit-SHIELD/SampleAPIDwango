@@ -16,7 +16,8 @@ class MainViewController: UIViewController {
     
     @IBOutlet var imageGIF: UIImageView!
     
-    @IBOutlet var label: UILabel!
+    
+
     
 
     
